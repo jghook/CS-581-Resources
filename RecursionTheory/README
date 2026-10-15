@@ -1,0 +1,20 @@
+Haskell Examples for CS 311
+Section on Primitive and Partial Recursive functions
+
+Pairing in Haskell
+cantor.hs	Implementation of Cantor pairing function in Haskell
+
+Primitive Recursive Functions (matches course notes):
+pr.hs	  	    Basic definitions; evaluator
+prcantor.hs	    Primitive recursive pairing
+goedel.hs	    Uses Haskell pairing to Goedel number Primitive Recursive Programs
+Examples.hs	    Includes solutions to all problems in Homework 8
+trace.hs	    Tracing and certifcate checking for Primitive Recursive functions
+lecturepr.hs	    A file that imports almost everything but defines nothing... used in demos
+
+Parital Recursive functions (not quite fully caught up with course notes):
+mur.hs		    Basic definitions of Partial Recursive (Mu-Recursive) functions
+murcantor.hs	    Stale copy of prcantor, building on mur
+murgoedel.hs	    Goedel number Partial Recursive functions; halting construction
+tracemur.hs	    Stale version of tracing and certificates.  Uses list version, not
+		    tree version in current draft of notes.
